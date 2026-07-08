@@ -1,0 +1,13 @@
+.production-page .consumption-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.production-page .consumption-row .form-control {
+  flex: 1;
+}
+
+.production-page .chart-container {
+  max-height: 300px;
+}

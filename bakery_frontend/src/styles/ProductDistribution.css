@@ -1,0 +1,35 @@
+.distribution-page .stat-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.distribution-page .stat-card .stat-label {
+  font-size: 13px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.distribution-page .stat-card .stat-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--charcoal);
+}
+
+.distribution-page .chart-container {
+  max-height: 300px;
+}
+
+.distribution-page .table-wrapper {
+  border: 1px solid #f0f0f0;
+  border-radius: var(--radius);
+}
+
+@media (max-width: 768px) {
+  .distribution-page .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

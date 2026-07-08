@@ -1,0 +1,17 @@
+.analytics-page .chart-container {
+  max-height: 300px;
+  width: 100%;
+}
+
+.analytics-page .card.full-width .chart-container {
+  max-height: 250px;
+}
+
+@media (max-width: 768px) {
+  .analytics-page .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .analytics-page .card.full-width {
+    grid-column: 1;
+  }
+}

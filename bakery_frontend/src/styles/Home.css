@@ -1,0 +1,74 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.home-card {
+  max-width: 700px;
+  width: 100%;
+  padding: 48px;
+  text-align: center;
+}
+
+.home-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--charcoal);
+  margin-bottom: 8px;
+}
+
+.home-subtitle {
+  color: #777;
+  margin-bottom: 32px;
+}
+
+.role-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.role-option {
+  background: var(--cream);
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  padding: 32px 20px;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.role-option:hover {
+  border-color: var(--gold);
+  background: #fff;
+  box-shadow: var(--shadow-md);
+  transform: scale(1.02);
+}
+
+.role-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.role-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.role-desc {
+  font-size: 14px;
+  color: #888;
+  margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+  .role-options {
+    grid-template-columns: 1fr;
+  }
+  .home-card {
+    padding: 24px;
+  }
+}

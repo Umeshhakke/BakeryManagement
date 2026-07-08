@@ -1,0 +1,9 @@
+.product-overview-page .chart-container {
+  max-height: 400px;
+  width: 100%;
+}
+
+.product-overview-page .table-wrapper {
+  border: 1px solid #f0f0f0;
+  border-radius: var(--radius);
+}
