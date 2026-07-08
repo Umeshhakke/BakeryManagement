@@ -304,9 +304,9 @@ BakeryManagerPython/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/bakery-erp.git
+https://github.com/Umeshhakke/BakeryManagement.git
 
-cd bakery-erp
+cd BakeryManagement
 ```
 
 ---
